@@ -1,0 +1,78 @@
+
+@media only screen and (max-width : 576px ){
+    body{
+        display:grid;
+        grid-template-columns: 248px;
+        
+        justify-content: center;
+        height: 100vh;
+        background-color: gold;
+    }
+    section{
+        background-color: antiquewhite;
+    }
+}
+
+@media only screen and (min-width : 576px ){
+    body{
+        display:grid;
+        grid-template-columns: 248px;
+        justify-content: center;
+        /* height: 100vh; */
+        background-color: green;
+    }
+    .header {
+        width: 100%;
+    }
+    .header svg{
+        width: inherit;
+        height: auto;
+    }
+    section{
+        border: 2px solid ;
+        background-color: antiquewhite;
+    }
+}
+
+@media only screen and (min-width : 768px ){
+    body{
+        display:grid;
+        grid-template-columns: 192px;
+        
+        justify-content: center;
+        height: 100vh;
+        background-color: blue;
+    }
+    section{
+        background-color: antiquewhite;
+    }
+}
+
+
+@media only screen and (min-width : 992px ){
+    body{
+        display:grid;
+        grid-template-columns: 248px;
+        
+        justify-content: center;
+        height: 100vh;
+        background-color: rgb(165, 42, 134);
+    }
+    section{
+        background-color: antiquewhite;
+    }
+}
+
+@media only screen and (min-width : 1200px ){
+    body{
+        display:grid;
+        grid-template-columns:300px;
+        
+        justify-content: center;
+        height: 100vh;
+        background-color: brown;
+    }
+    section{
+        background-color: antiquewhite;
+    }
+}
