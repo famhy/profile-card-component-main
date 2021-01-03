@@ -17,20 +17,60 @@
     body{
         display:grid;
         grid-template-columns: 248px;
+        grid-template-rows: 60vh 20px;
         justify-content: center;
         /* height: 100vh; */
         background-color: green;
     }
     .header {
         width: 100%;
+        height: 30%;
     }
     .header svg{
         width: inherit;
         height: auto;
     }
     section{
+        display: flex;
+        flex-direction: column;
         border: 2px solid ;
         background-color: antiquewhite;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 40px;
+    }
+    .content >div{
+        display: flex;
+        align-self: center;
+        
+    }
+    .info > div {
+        padding: 0 5px;
+    }
+    .profile{
+        width: 90px;
+        height: auto;
+        border-radius: 50%;
+        align-self: center;
+        margin: auto;
+        
+        
+    }
+    .cadre{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: -5px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+      padding-top: 50px;
     }
 }
 
